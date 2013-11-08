@@ -2210,6 +2210,8 @@ RedemptionHelper = {
       return result;
   }
   ,jQboldCards: function(insideof){
+     var $ = jQuery;
+     
      insideof = insideof || 'body';
      //so actually this is a bit tricky because
      //if a redemption card is inside a <button> which is in insideof, it will mess up
@@ -2231,6 +2233,7 @@ RedemptionHelper = {
      return null;
   }
   ,jQinsertCardInfo: function(){
+     var $ = jQuery;
      var self = this;
      $('.redempcard').each(function(){
          var res = self.lookup($(this).html());
