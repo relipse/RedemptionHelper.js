@@ -4,6 +4,7 @@ RedemptionHelper.js
 This is a javascript helper for the popular Christian card game Redemption made by Cactus Game Design.
 Read below for more info:
 
+```
   RedemptionHelper by Jim Kinsman (github.com/relipse)
   Thanks for original database from http://covenantgames.com/RedList.zip
  
@@ -14,4 +15,4 @@ Read below for more info:
     });
   And set your css styles accordingly to make it look nice: 
     .redempcard and .redempcardinfo
-
+```
